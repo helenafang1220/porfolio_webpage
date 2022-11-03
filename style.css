@@ -1,11 +1,13 @@
 main {
     display: block;
 }
+
 body{
     font-family: Helvetica Neue;  
     width: 600px;
     height: 1200px;
     margin: 0 auto;
+    padding: 0 2rem;
     line-height: 1.5;
 }
 
@@ -172,12 +174,22 @@ footer{
     padding-bottom:5%;
 }
 
-img#imgcenter{
-    display: block;
+figure{
+    display: inline-block;
+    
+}
+
+figcaption{
+    font-style: italic;
+    font-size: smaller;
+    margin-left: -10%;
+}
+
+img.imgcenter{
+    display: inline-block;
     padding-top: 5%;
     margin-left: -10%;
     margin-right: auto;
-    
 }
 
 u {
@@ -189,3 +201,8 @@ u {
 mark{
     background-color: #dcbaff;
 }
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+

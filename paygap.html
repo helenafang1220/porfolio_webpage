@@ -2,8 +2,12 @@
 
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
         <link rel="stylesheet" href="style.css">
         <title> ✴︎ Gender Paygap in Taiwan Creative Industry | Regression Analysis </title>
+        
+        </style>
         </head>
     <body>
         <!-- header setting -->
@@ -19,12 +23,58 @@
             </nav>
         </header>
         <!-- Enter title and Date  -->
-        <a id="postTitle" href="paygap.html"> ✴︎ Gender Paygap in Taiwan Creative Industry | Regression Analysis </a><br>
+        <a id="postTitle" href="paygap.html"> ✴︎ Gender Paygap in Taiwan Creative Industry | Simple Linear Regression </a><br>
         <a id="postDate">April 2022</a><br>
 
         <!-- Enter content -->
-        <img id="imgcenter" src="img/avg_salary.jpg" height=40%>
-        <img id="imgcenter" src="img/salary_gender.jpg" height=40%>
-        <img id="imgcenter" src="img/salary_gap.jpg" height=40%>
-        <img id="imgcenter" src="img/regression.jpg" height=40%>
+        <p>The analysis explores the trend and causes of the gender pay gap in the Taiwanese creative industry*. 
+            The raw data were collected from Taiwan Executive Yuan’s which is an open governmental data source. 
+
+            I retrieved monthly income and the number of employees from both gender from 1980 to 2021. 
+            Through statistical and regression analysis, I demonstrated the relationship between time, salary and
+            number of employees in the following charts. 
+            
+            *Taiwanese government translates as “Arts, Entertainment, and Recreation Industry” </p>
+
+        <p>Overall, the salary for both genders has an upward trend as the year progresses.<a href="#img1">(See Img. 1)</a>
+            There’s no significant outlier in this dataset, except for a noticeable downfall
+            during 2020 to 2021 <a href="#img2">(See Img 2.)</a>, which is most likely to be affected by the pandemic.
+            To fit into the regression model, I decided to gain the means out of months as the representation
+            of the average salary for each year. A new chart is shown below:</p>
+
+        <figure>
+            <img class="imgcenter" id="img1" src="img/avg_salary.jpg" style="width:130%">
+            <figcaption>Img. 1 Average Salary in Taiwanese Creative Industry</figcaption>
+        </figure>
         
+        <figure>
+            <img class="imgcenter" id="img2" src="img/salary_gender.jpg" style="width:150%">
+            <figcaption>Img. 2 Regular Monthly Salary of Male and Female in the Creative Industry</figcaption>
+        </figure>
+        
+        <p> The chart below is the number of employees from 1980 to 2020. 
+            The line chart indicates that from around 2007, female workers
+            exceeded male workers in the industry, however, this doesn't stop the paygap from increasing.
+            From the analysis I assume that it could be that female are paid less or that most of them are in low level
+            positions. </p>
+        <figure>
+            <img class="imgcenter" src="img/Employee_Gender.jpg" style="width:150%">
+            <figcaption>Img. 3 Number of Male and Female Employee in the Creative Industry</figcaption>
+        </figure>    
+    
+        <p> The heatmap indicates that the <b>number of female employee</b> is correlated to the gender paygap at <b>0.9</b>.
+        I therefore selected these two variables for regression analysis. </p>
+
+        <figure>
+        <img class="imgcenter" src="img/heatmap.jpg" style="width:150%">
+        <figcaption>Img. 4 Correlation Heatmap</figcaption>
+        </figure>
+
+        <figure>
+        <img id="imgcenter" src="img/regression.jpg" style="width:150%">
+        <figcaption>Img. 5 Linear Regression Plot</figcaption>
+        </figure>
+
+        <p>Data Reference : Directorate-General of Budget, Accounting and Statistics,
+            Executive Yuan, R.O.C.(Taiwan) https://eng.dgbas.gov.tw/mp.asp?mp=2 (last access:
+            21/03/2022)</p>
