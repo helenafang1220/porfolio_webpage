@@ -11,6 +11,16 @@ body{
     line-height: 1.5;
 }
 
+body.cv{
+    font-family: Helvetica Neue;  
+    width: 630px;
+    height: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    line-height: 1.5;
+
+}
+
 header#banner{
     display: flex;
     justify-content: space-between;
@@ -109,7 +119,8 @@ span#year{
     font-size: 12px;
 }
 
-span#frstyear{
+
+a#frstyear{
     font-weight: bold;
     float: right;
     font-size: 12px;
@@ -118,25 +129,38 @@ span#frstyear{
 
 p#uni{
     margin-top: 0%;
+    margin-bottom: 5%;
 
 }
 
-span#job{
+a.job{
     font-weight: bold;
 }
 
-span#frstjob{
+a.frstjob{
     margin-top: 0%;
+    margin-bottom: 0%;
     font-weight: bold;
 }
 
-#job, #year{
-    margin-bottom: 2%;
+.job{
+    margin-bottom: 0%;
     margin-top: 5%;
     display: inline-block;
 }
 
-#frstjob, #frstyear{
+a.year{
+    display: block;
+    font-weight: bold;
+    font-size: 80%;
+    margin-top: 0;
+    margin-bottom: 1%;
+    
+}
+
+
+
+.frstjob, .frstyear{
     margin-bottom: 2%;
     margin-top: 2%;
     display: inline-block;
