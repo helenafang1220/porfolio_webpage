@@ -230,3 +230,7 @@ mark{
     box-sizing: border-box;
 }
 
+a.annotation{
+    font-weight: bold;
+    font-size: 80%;
+}

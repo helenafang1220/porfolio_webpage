@@ -27,20 +27,22 @@
         <a id="postDate">April 2022</a><br>
 
         <!-- Enter content -->
-        <p>The analysis explores the trend and causes of the gender pay gap in the Taiwanese creative industry*. 
-            The raw data were collected from Taiwan Executive Yuan’s which is an open governmental data source. 
+        <p><a>The analysis explores the trend and causes of the gender pay gap in the Taiwanese creative industry<b>*</b>.
+            The raw data were collected from Taiwan Executive Yuan’s, an open governmental data source.
 
             I retrieved monthly income and the number of employees from both gender from 1980 to 2021. 
             Through statistical and regression analysis, I demonstrated the relationship between time, salary and
-            number of employees in the following charts. 
+            number of employees in the following charts.</a><br>
             
-            *Taiwanese government translates as “Arts, Entertainment, and Recreation Industry” </p>
+            <a class="annotation">* Translation in Taiwan as “Arts, Entertainment, and Recreation Industry”</a> 
+        </p>
 
         <p>Overall, the salary for both genders has an upward trend as the year progresses.<a href="#img1">(See Img. 1)</a>
-            There’s no significant outlier in this dataset, except for a noticeable downfall
-            during 2020 to 2021 <a href="#img2">(See Img 2.)</a>, which is most likely to be affected by the pandemic.
-            To fit into the regression model, I decided to gain the means out of months as the representation
-            of the average salary for each year. A new chart is shown below:</p>
+            However, The graph indicates a widening gap between the genders. 
+            From 1980 to 2020, male has received 1.7 times more than female in annual income growth.
+            There's no siginicant outliers in the data, execpt for a significant downfall in 2021
+            <a href="#img2">(See Img 2.)</a>, which is most likely due to the pandemic.
+        </p>
 
         <figure>
             <img class="imgcenter" id="img1" src="img/avg_salary.jpg" style="width:130%">
@@ -53,27 +55,23 @@
         </figure>
         
         <p> The chart below is the number of employees from 1980 to 2020. 
-            The line chart indicates that from around 2007, female workers
-            exceeded male workers in the industry, however, this doesn't stop the paygap from increasing.
-            From the analysis I assume that it could be that female are paid less or that most of them are in low level
+            The line chart indicates that number of male workers
+            exceeded female workers around 2007, however, this doesn't stop the paygap from increasing.
+            This could be that female are paid less or that most of them are in low level or atypical
             positions. </p>
         <figure>
-            <img class="imgcenter" src="img/Employee_Gender.jpg" style="width:150%">
+            <img class="imgcenter" src="img/Employee_Gender.jpg" style="width:130%">
             <figcaption>Img. 3 Number of Male and Female Employee in the Creative Industry</figcaption>
         </figure>    
     
         <p> The heatmap indicates that the <b>number of female employee</b> is correlated to the gender paygap at <b>0.9</b>.
-        I therefore selected these two variables for regression analysis. </p>
+        With high correlation of two variables, linear regression can be used for predeciting future trend of the paygap. </p>
 
         <figure>
-        <img class="imgcenter" src="img/heatmap.jpg" style="width:150%">
+        <img class="imgcenter" src="img/heatmap.jpg" style="width:130%">
         <figcaption>Img. 4 Correlation Heatmap</figcaption>
         </figure>
 
-        <figure>
-        <img id="imgcenter" src="img/regression.jpg" style="width:150%">
-        <figcaption>Img. 5 Linear Regression Plot</figcaption>
-        </figure>
 
         <p>Data Reference : Directorate-General of Budget, Accounting and Statistics,
             Executive Yuan, R.O.C.(Taiwan) https://eng.dgbas.gov.tw/mp.asp?mp=2 (last access:
