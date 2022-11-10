@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="utf-8">
         <link rel="stylesheet" href="style.css">
-        <title> ✴︎ Gender Paygap in Taiwan Creative Industry | Regression Analysis </title>
+        <title> ✴︎ Gender Pay Gap in Taiwanese Culture and Creative Industry </title>
         
         </style>
         </head>
@@ -23,56 +23,147 @@
             </nav>
         </header>
         <!-- Enter title and Date  -->
-        <a id="postTitle" href="paygap.html"> ✴︎ Gender Paygap in Taiwan Creative Industry | Simple Linear Regression </a><br>
+        <a id="postTitle" href="paygap.html"> ✴︎ Gender Pay Gap in Taiwanese Culture and Creative Industry </a><br>
         <a id="postDate">April 2022</a><br>
 
+        <a class="subcat">Programming Lauguage & Packages : Python | Matplotlib | Seaborn </a>
+
         <!-- Enter content -->
-        <p><a>The analysis explores the trend and causes of the gender pay gap in the Taiwanese creative industry<b>*</b>.
-            The raw data were collected from Taiwan Executive Yuan’s, an open governmental data source.
+       
+        <h4>Understanding the data and background</h4>
+        <p> 
+            The report aims to explore the gender pay gap in Taiwan’s creative industry. 
+            Given its impression on low income, could female be struggling even more in the industry?
+        </p>
+        <p>
+            It is common for people in the creative industry to be self-employed, singing up for fixed contract or working several
+            part-time jobs. The creative industry mostly about  task-based or project-based jobs that lead to unstable income.
+            Meanwhile, the subjective and varied definition of “creative” does not guarantee a standardised way of becoming
+            successful in the industry. This has caused lots of workers, especially young workers, are willing to work for
+            unpaid internships or gigs, to increase the chances of being expose to more opportunities. Atypical employments
+            as such leads to a large portion of unpaid or poorly paid employments in the industry. 
+        </p>
 
-            I retrieved monthly income and the number of employees from both gender from 1980 to 2021. 
-            Through statistical and regression analysis, I demonstrated the relationship between time, salary and
-            number of employees in the following charts.</a><br>
+        <p>Besides, current business model in the industry is mostly unable to provide stable revenue, a lot relies or are asking
+            more of governmental financial support. According to the statistics <a href="#img1">(See image 1)</a> 
+            ,the regular income in the Art and Creative Industry is far less than other professional careers such as publication,
+            television and finance. Even with atypical income
+                <a href="#img2">
+                    (See image 2)</a>, the creative industry still remains last in comparison with other industries.
+                </a>
+        </p>
+        
+        <figure>
+            <img class="imgcenter" id="img1" src="img/payGap/regular_income_industry.jpg" style="width:150%">
+            <figcaption>Img. 1 Regular Monthly Income Comparison Amongst Industries</figcaption>
+        </figure>
+        
+        <figure>
+            <img class="imgcenter" id="img2" src="img/payGap/total_income_industry.jpg" style="width:150%">
+            <figcaption>Img. 2 Total Monthly Income Comparison Amongst Industries</figcaption>
+        </figure>
+        
+        <p>
+            <h4>Does Pay gap exist?</h4>
+        </p>
+        <p>
+            <b>The short answer is yes.</b> In <a href="#img3">Image 3</a>, the graph indicates a widening gap between the genders. 
+            From 1980 to 2020, male has received 1.7 times more than female in annual income growth. 
+        
+
             
-            <a class="annotation">* Translation in Taiwan as “Arts, Entertainment, and Recreation Industry”</a> 
+            In a more detailed data around employment, female tends to work in governmental sector more than men. In the report … As male tends to work in private sectors, that would possibly result in higher income. 
+        </p>
+        <figure>
+            <img class="imgcenter" id="img3" src="img/payGap/avg_salary.jpg" style="width:120%">
+            <figcaption>Img. 3 Monthly Salary Since 1980 to 2020</figcaption>
+        </figure>
+
+        <p>While some might argue that male workers devote more time in their career that leads to higher income. 
+        However, statistics show that the working hours from both genders are actually similar, with daily working hours
+        difference no more than ± 0.25 hours (15min). <a href="#img4">(See Image 4)</a> 
+        In some of the years, female workers had worked longer hours than male workers.
         </p>
 
-        <p>Overall, the salary for both genders has an upward trend as the year progresses.<a href="#img1">(See Img. 1)</a>
-            However, The graph indicates a widening gap between the genders. 
-            From 1980 to 2020, male has received 1.7 times more than female in annual income growth.
-            There's no siginicant outliers in the data, execpt for a significant downfall in 2021
-            <a href="#img2">(See Img 2.)</a>, which is most likely due to the pandemic.
+        <figure>
+            <img class="imgcenter" id="img4" src="img/payGap/work_hour_dif.jpg" style="width:120%">
+            <figcaption>Img. 4 Working Hours Comparison</figcaption>
+        </figure>
+
+        <p>
+            <a href="#img5">Image 5</a> demonstrates the gap of monthly income in 2020 from different industries within the cultural and 
+            creative sector. <br> The graph shows the amount of monthly wages that male workers received more than female workers:<br>  
+            <i>( male monthly income - female monthly income ) </i><br>
+        </p>
+            <p>Sports and Leisure Entertainment has the largest gap up to $NTD 20,000, following the Design industry with a gap over 
+            $NTD 17,000 and the third is Publishing, its pay gap is around $NTD 12,000. 
         </p>
 
         <figure>
-            <img class="imgcenter" id="img1" src="img/avg_salary.jpg" style="width:130%">
-            <figcaption>Img. 1 Average Salary in Taiwanese Creative Industry</figcaption>
+            <img class="imgcenter" id="img5" src="img/payGap/2020_pay_dif.jpg" style="width:150%">
+            <figcaption>Img. 5 2020 Pay Gap in Different Industries</figcaption>
         </figure>
+
+        <h4>Income vs Number of Employment</h4>
+        <p>
+            It wasn’t until 2007 <a href="#img6">(See Image 6)</a> that the number of female workers exceeded male workers, showing that prior 2007,
+             female hasn’t been employed as much than the male workers. That could either be limited opportunities to employment
+              for female workers, or that female had different career choices. For instances, working in other industries or as
+               full-time housewives. However, even with more female entering workforces, they are still receiving less income
+                than male. 
+        </p>
         
         <figure>
-            <img class="imgcenter" id="img2" src="img/salary_gender.jpg" style="width:150%">
-            <figcaption>Img. 2 Regular Monthly Salary of Male and Female in the Creative Industry</figcaption>
+            <img class="imgcenter" id="img6" src="img/payGap/Employee_Gender.jpg" style="width:120%">
+            <figcaption>Img. 6 Number of Employment Comparison Between Genders</figcaption>
+        </figure>
+        <p>
+        From the graph below <a href="#img7">(Image 7)</a>, over a half of the positions in the Taiwanese Ministry of Culture are occupied by female.
+         On the other hand, if look at another statistics in the private sector,<a href="#img8">(Image 8)</a>  male has dominated most of the sectors.
+          Especially in the design industry, in 2020, the male:female ratio is <b>84% vs.16%</b>, in the same year, it also holds the
+           second largest pay gap which is <b>$NTD 71,202 vs. $NTD 53,411</b>. 
+        </p>
+
+        <figure>
+        <img class="imgcenter" id="img7" src="img/payGap/2020_gov_employment.jpg" style="width:130%">
+        <figcaption>Img. 7 2020 Ministry of Culture Employment</figcaption>
+        </figure>
+
+        <figure>
+            <img class="imgcenter" id="img8" src="img/payGap/2020_pri_employment.jpg" style="width:130%">
+            <figcaption>Img. 8 2020 Private Sectors Employment</figcaption>
         </figure>
         
-        <p> The chart below is the number of employees from 1980 to 2020. 
-            The line chart indicates that number of male workers
-            exceeded female workers around 2007, however, this doesn't stop the paygap from increasing.
-            This could be that female are paid less or that most of them are in low level or atypical
-            positions. </p>
+        <p> Despite there are significantly more female in the advertising and marketing industry,<a href="#img9">(Image 9) </a> with twice of
+            the female workers more than male workers, male are still receiving higher average income. This implies that
+            the majority of female workers are be in low-level positions. </p>
+        
         <figure>
-            <img class="imgcenter" src="img/Employee_Gender.jpg" style="width:130%">
-            <figcaption>Img. 3 Number of Male and Female Employee in the Creative Industry</figcaption>
-        </figure>    
-    
-        <p> The heatmap indicates that the <b>number of female employee</b> is correlated to the gender paygap at <b>0.9</b>.
-        With high correlation of two variables, linear regression can be used for predeciting future trend of the paygap. </p>
-
-        <figure>
-        <img class="imgcenter" src="img/heatmap.jpg" style="width:130%">
-        <figcaption>Img. 4 Correlation Heatmap</figcaption>
+            <img class="imgcenter" id="img9" src="img/payGap/2020_ad_de_income.jpg" style="width:100%">
         </figure>
 
 
-        <p>Data Reference : Directorate-General of Budget, Accounting and Statistics,
+        <figure>
+            <img class="imgcenter" id="img10" src="img/payGap/2020_de_mkt_employ.jpg" style="width:110%">
+            <figcaption>Img. 9 Ad, Marketing and Design Comparison</figcaption>
+        </figure>
+
+        <h3>What are the causes?</h3>
+        <p>
+        It’s difficult to tell from just statistics of the exact causes of pay gap. To understand more about the issue,
+         a more detailed description on the data is required. For example, positions, years of experience and ages. 
+        </p>
+
+        <a class="annotation">Data Reference : Directorate-General of Budget, Accounting and Statistics,
             Executive Yuan, R.O.C.(Taiwan) https://eng.dgbas.gov.tw/mp.asp?mp=2 (last access:
-            21/03/2022)</p>
+            21/03/2022)</a>
+</body>
+            <footer>
+                <nav>
+                    <ul id="navi">
+                        <li id="navi"><a id="header" href="index.html">&#8594;HsiFangChen</a></li>
+                        <li id="navi"><a id="header" href="cv.html">&#8594;CV</a></li>
+                        <li id="navi"><a id="header" href="https://github.com/helenafang1220">&#8594;GitHub</a></li>
+                    </ul>
+                </nav>
+            </footer>

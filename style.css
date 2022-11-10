@@ -158,7 +158,19 @@ a.year{
     
 }
 
+a.subcat{
+    color: #8D9EFF;
+    font-size: 80%;
+}
 
+a:link{
+    color: #6C4AB6;
+}
+
+
+a:active{
+    color: #ea1f96;
+}
 
 .frstjob, .frstyear{
     margin-bottom: 2%;
@@ -224,7 +236,14 @@ u {
 
 mark{
     background-color: #dcbaff;
+    border-radius: 30px;
+    
 }
+
+/* mark.other{
+    background-color: #3a2e47;
+    color: azure;
+} */
 
 *, *:before, *:after {
     box-sizing: border-box;
