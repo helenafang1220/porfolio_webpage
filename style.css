@@ -253,3 +253,8 @@ a.annotation{
     font-weight: bold;
     font-size: 80%;
 }
+
+i{
+    display: block;
+    text-align: center;
+}
