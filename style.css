@@ -228,6 +228,13 @@ img.imgcenter{
     margin-right: auto;
 }
 
+img.imglarge{
+    display: inline-block;
+    padding-top: 5%;
+    margin-left: -15%;
+    margin-right: auto;
+}
+
 u {
     text-decoration: underline;
     -webkit-text-decoration-color: rgb(136, 238, 88); 
