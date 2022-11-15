@@ -2,10 +2,23 @@ main {
     display: block;
 }
 
+html {
+    font-size: 1.2rem;
+  }
+
+@media all and (max-width: 390px) and (min-width: 100px) {
+    html {
+     font-size: 4.5rem;
+     width: 18rem;
+    margin: 0 auto;
+   }
+ }
+
+
 body{
     font-family: Helvetica Neue;  
-    width: 600px;
-    height: 1200px;
+    width: 37.5rem;
+    height: 75rem;
     margin: 0 auto;
     padding: 0 2rem;
     line-height: 1.5;
@@ -13,8 +26,8 @@ body{
 
 body.cv{
     font-family: Helvetica Neue;  
-    width: 630px;
-    height: 1200px;
+    width: 39.375rem;
+    height: 75rem;
     margin: 0 auto;
     padding: 0 2rem;
     line-height: 1.5;
@@ -51,7 +64,7 @@ ul#navi {
 li#navi{
     list-style-type: none;
     display: inline;
-    margin: 0 3px;
+    margin: 0 0.188rem;
 }
 
 a#header{
@@ -116,14 +129,14 @@ span#degree{
 span#year{
     font-weight: bold;
     float: right;
-    font-size: 12px;
+    font-size: 1.313rem;
 }
 
 
 a#frstyear{
     font-weight: bold;
     float: right;
-    font-size: 12px;
+    font-size: 1.313rem;
     margin-top: 0%;
 }
 
