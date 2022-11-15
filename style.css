@@ -3,8 +3,11 @@
      font-size: 5rem;
    }
    body{
-    width: 9rem !important;
+    width: 22rem !important;
     margin: 0 auto;
+   }
+   img{
+    max-width: 120%;
    }
 }
 main {
